@@ -1,0 +1,1 @@
+Description of challenges from AdventJS 2025
