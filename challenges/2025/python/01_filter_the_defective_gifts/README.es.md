@@ -13,7 +13,7 @@
 
 <p align="center">
     <a href="README.md">
-        <img src="https://img.shields.io/badge/Language-en-red.svg" alt="Inglés">
+        <img src="https://img.shields.io/badge/Idioma-en-red.svg" alt="Inglés">
     </a>
 </p>
 

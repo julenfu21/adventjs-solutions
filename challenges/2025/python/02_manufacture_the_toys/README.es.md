@@ -2,10 +2,9 @@
     <h1>Reto #2: 🏭 Fabrica los Juguetes</h1>
 </div>
 
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Dificultad-FÁCIL-brightgreen" alt="Dificultad: Fácil" style="margin-right:16px;">
-  <img src="https://img.shields.io/badge/Puntuación-6%2F8-lightcoral" alt="Puntuación: 5-6">
+    <img src="https://img.shields.io/badge/Dificultad-FÁCIL-brightgreen" alt="Dificultad: Fácil" style="margin-right:16px;">
+    <img src="https://img.shields.io/badge/Puntuación-6%2F8-lightcoral" alt="Puntuación: 5-6">
 </p>
 <br>
 
@@ -13,9 +12,9 @@
 ## 🌐 Leer en Otros Idiomas
 
 <p align="center">
-  <a href="README.md">
-    <img src="https://img.shields.io/badge/Language-en-red.svg" alt="Inglés">
-  </a>
+    <a href="README.md">
+        <img src="https://img.shields.io/badge/Idioma-en-red.svg" alt="Inglés">
+    </a>
 </p>
 
 
