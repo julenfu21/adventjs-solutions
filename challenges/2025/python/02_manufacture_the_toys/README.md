@@ -9,7 +9,7 @@
 <br>
 
 
-## 🌐 Other Languages
+## 🌐 Read in Other Languages
 
 <p align="center">
   <a href="README.es.md">
