@@ -2,23 +2,24 @@
     <h1>Reto #2: 🏭 Fabrica los Juguetes</h1>
 </div>
 
+
 <p align="center">
-    <img src="https://img.shields.io/badge/Dificultad-FÁCIL-brightgreen" alt="Difficulty: Fácil" style="margin-right:16px;">
-    <img src="https://img.shields.io/badge/Puntuación-6%2F8-lightcoral" alt="Puntuación: 5-6">
+  <img src="https://img.shields.io/badge/Dificultad-FÁCIL-brightgreen" alt="Dificultad: Fácil" style="margin-right:16px;">
+  <img src="https://img.shields.io/badge/Puntuación-6%2F8-lightcoral" alt="Puntuación: 5-6">
 </p>
 <br>
 
 
-## 🌐 Leer en Otros Idiomas:
+## 🌐 Leer en Otros Idiomas
 
 <p align="center">
   <a href="README.md">
-      <img src="https://img.shields.io/badge/Language-en-red.svg" alt="Inglés">
+    <img src="https://img.shields.io/badge/Language-en-red.svg" alt="Inglés">
   </a>
 </p>
 
 
-## 🎯 Instrucciones:
+## 🎯 Instrucciones
 
 La fábrica de Santa ha empezado a recibir la **lista de producción** de juguetes. Cada línea indica **qué juguete** hay que fabricar y **cuántas unidades**.
 
@@ -36,7 +37,7 @@ Tu tarea es escribir una función que reciba esta lista y devuelva un **array de
 - Ignorando los juguetes con cantidades no válidas (menores o iguales a 0, o que no sean número)
 
 
-## 💡 Ejemplos:
+## 💡 Ejemplos
 
 ```js
 const production1 = [

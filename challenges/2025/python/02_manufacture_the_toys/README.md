@@ -3,8 +3,8 @@
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Difficulty-EASY-brightgreen" alt="Difficulty: Easy" style="margin-right:16px;">
-  <img src="https://img.shields.io/badge/Score-6%2F8-lightcoral" alt="Score: 5-6">
+    <img src="https://img.shields.io/badge/Difficulty-EASY-brightgreen" alt="Difficulty: Easy" style="margin-right:16px;">
+    <img src="https://img.shields.io/badge/Score-6%2F8-lightcoral" alt="Score: 5-6">
 </p>
 <br>
 
@@ -12,9 +12,9 @@
 ## 🌐 Read in Other Languages
 
 <p align="center">
-  <a href="README.es.md">
-      <img src="https://img.shields.io/badge/Language-es-yellow.svg" alt="Spanish">
-  </a>
+    <a href="README.es.md">
+        <img src="https://img.shields.io/badge/Language-es-yellow.svg" alt="Spanish">
+    </a>
 </p>
 
 
