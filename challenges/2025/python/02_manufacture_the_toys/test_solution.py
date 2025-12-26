@@ -58,7 +58,7 @@ def test_manufacture_gifts_returns_list():
         "negative_quantity_filter"
     ]
 )
-def test_filter_gifts(gifts_to_produce, expected_toys):
+def test_manufacture_gifts(gifts_to_produce, expected_toys):
     toys_list = manufacture_gifts(gifts_to_produce)
 
     assert toys_list == expected_toys
