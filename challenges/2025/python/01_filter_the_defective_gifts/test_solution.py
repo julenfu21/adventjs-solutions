@@ -3,7 +3,7 @@ import pytest
 from solution import filter_gifts
 
 
-def test_filter_gifts_return_list():
+def test_filter_gifts_returns_list():
     gifts = ["car", "ball"]
 
     non_defective_gifts = filter_gifts(gifts)
