@@ -1,10 +1,10 @@
 <div align="center">
-  <h1>Challenge #25: 🪄 Execute the magical language</h1>
+    <h1>Challenge #25: 🪄 Execute the magical language</h1>
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Difficulty-MEDIUM-yellow" alt="Difficulty: Medium" style="margin-right:16px;">
-  <img src="https://img.shields.io/badge/Score-7%2F8-blueviolet" alt="Score: 7-8">
+    <img src="https://img.shields.io/badge/Difficulty-MEDIUM-yellow" alt="Difficulty: Medium" style="margin-right:16px;">
+    <img src="https://img.shields.io/badge/Score-7%2F8-blueviolet" alt="Score: 7-8">
 </p>
 <br>
 
@@ -12,9 +12,9 @@
 ## 🌐 Read in Other Languages
 
 <p align="center">
-  <a href="README.es.md">
-    <img src="https://img.shields.io/badge/Language-es-yellow.svg" alt="Spanish">
-  </a>
+    <a href="README.es.md">
+        <img src="https://img.shields.io/badge/Language-es-yellow.svg" alt="Spanish">
+    </a>
 </p>
 
 

@@ -1,10 +1,10 @@
 <div align="center">
-  <h1>Reto #25: 🪄 Ejecuta el Lenguaje Mágico</h1>
+    <h1>Reto #25: 🪄 Ejecuta el Lenguaje Mágico</h1>
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Dificultad-MEDIO-yellow" alt="Dificultad: Medio" style="margin-right:16px;">
-  <img src="https://img.shields.io/badge/Puntuación-7%2F8-blueviolet" alt="Puntuación: 7-8">
+    <img src="https://img.shields.io/badge/Dificultad-MEDIO-yellow" alt="Dificultad: Medio" style="margin-right:16px;">
+    <img src="https://img.shields.io/badge/Puntuación-7%2F8-blueviolet" alt="Puntuación: 7-8">
 </p>
 <br>
 
@@ -12,9 +12,9 @@
 ## 🌐 Leer en Otros Idiomas
 
 <p align="center">
-  <a href="README.md">
-    <img src="https://img.shields.io/badge/Language-en-red.svg" alt="Inglés">
-  </a>
+    <a href="README.md">
+        <img src="https://img.shields.io/badge/Language-en-red.svg" alt="Inglés">
+    </a>
 </p>
 
 
@@ -29,8 +29,8 @@ Los programas siempre empiezan con el valor `0` y el lenguaje es una cadena de t
 - `>` Se mueve a la siguiente instrucción
 - `+` Incrementa en 1 el valor actual
 - `-` Decrementa en 1 el valor actual
-- `[` and `]`: Bucle. Si el valor actual es `0`, salta a la instrucción después de `]`. Si no es 0, vuelve a la instrucción después de `[`
-- `{` and `}`: Condicional. Si el valor actual es `0`, salta a la instrucción después de `}`. Si no es 0, sigue a la instrucción después de `{`
+- `[` y `]`: Bucle. Si el valor actual es `0`, salta a la instrucción después de `]`. Si no es 0, vuelve a la instrucción después de `[`
+- `{` y `}`: Condicional. Si el valor actual es `0`, salta a la instrucción después de `}`. Si no es 0, sigue a la instrucción después de `{`
 
 Tienes que devolver el valor del programa tras ejecutar todas las instrucciones.
 
