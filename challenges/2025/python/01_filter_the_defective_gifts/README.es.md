@@ -3,29 +3,29 @@
 </div>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Dificultad-FÁCIL-brightgreen" alt="Difficulty: Fácil" style="margin-right:16px;">
+    <img src="https://img.shields.io/badge/Dificultad-FÁCIL-brightgreen" alt="Dificultad: Fácil" style="margin-right:16px;">
     <img src="https://img.shields.io/badge/Puntuación-6%2F8-lightcoral" alt="Puntuación: 5-6">
 </p>
 <br>
 
 
-## 🌐 Leer en Otros Idiomas:
+## 🌐 Leer en Otros Idiomas
 
 <p align="center">
-  <a href="README.md">
-      <img src="https://img.shields.io/badge/Language-en-red.svg" alt="Inglés">
-  </a>
+    <a href="README.md">
+        <img src="https://img.shields.io/badge/Language-en-red.svg" alt="Inglés">
+    </a>
 </p>
 
 
-## 🎯 Instrucciones:
+## 🎯 Instrucciones
 
 Santa ha recibido una lista de regalos, pero algunos están **defectuosos**. Un regalo es defectuoso si su nombre contiene el carácter `#`.
 
 Ayuda a Santa escribiendo una función que reciba una lista de nombres de regalos y devuelva una nueva lista que **solo contenga los regalos sin defectos**.
 
 
-## 💡 Ejemplos:
+## 💡 Ejemplos
 
 ```js
 const gifts1 = ['car', 'doll#arm', 'ball', '#train']
