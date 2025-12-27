@@ -1,3 +1,5 @@
+from textwrap import dedent
+
 import pytest
 
 from solution import draw_gift
@@ -14,10 +16,52 @@ def test_draw_gift_returns_string():
 @pytest.mark.parametrize(
     "size,symbol,expected_drawing", [
         (1, '+', ""),
-        (2, '#', "##\n##"),
-        (3, '#', "###\n# #\n###"),
-        (4, '*', "****\n*  *\n*  *\n****"),
-        (5, '@', "@@@@@\n@   @\n@   @\n@   @\n@@@@@")
+        (
+            2,
+            '#',
+            dedent(
+                """\
+                ##
+                ##
+                """
+            ).rstrip()
+        ),
+        (
+            3,
+            '#',
+            dedent(
+                """\
+                ###
+                # #
+                ###
+                """
+            ).rstrip()
+        ),
+        (
+            4,
+            '*',
+            dedent(
+                """\
+                ****
+                *  *
+                *  *
+                ****
+                """
+            ).rstrip()
+        ),
+        (
+            5,
+            '@',
+            dedent(
+                """\
+                @@@@@
+                @   @
+                @   @
+                @   @
+                @@@@@
+                """
+            ).rstrip()
+        )
     ]
 )
 def test_draw_gift(size, symbol, expected_drawing):
