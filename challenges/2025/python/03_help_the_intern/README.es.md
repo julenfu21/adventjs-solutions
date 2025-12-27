@@ -68,5 +68,5 @@ console.log(g3)
 
 const g4 = drawGift(1, '+')
 console.log(g4)
-// ""  poor intern…
+// ""  pobre becario…
 ```
