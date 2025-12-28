@@ -83,7 +83,7 @@ def test_draw_tree_returns_string():
         )
     ]
 )
-def test_match_gloves(height, ornament, frequency, expected_drawing):
+def test_draw_tree(height, ornament, frequency, expected_drawing):
     tree_drawing = draw_tree(height, ornament, frequency)
 
     assert tree_drawing == expected_drawing

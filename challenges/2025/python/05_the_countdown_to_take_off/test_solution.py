@@ -22,7 +22,7 @@ def test_time_until_take_off_returns_int():
         ("2030*01*01@00|01|00 NP", "2030*01*01@00|00|00 NP", -60)
     ]
 )
-def test_decode_santa_pin(from_time, take_off_time, expected_difference):
+def test_time_until_take_off(from_time, take_off_time, expected_difference):
     seconds_difference = time_until_take_off(from_time, take_off_time)
 
     assert seconds_difference == expected_difference

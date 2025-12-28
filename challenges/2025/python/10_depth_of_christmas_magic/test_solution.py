@@ -24,7 +24,7 @@ def test_max_depth_returns_int():
         ("[][][", -1)
     ]
 )
-def test_move_reno(s, expected_depth_level):
+def test_max_depth(s, expected_depth_level):
     max_depth_level = max_depth(s)
 
     assert max_depth_level == expected_depth_level

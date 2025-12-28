@@ -24,7 +24,7 @@ def test_find_unique_toy_returns_string():
         ("AaBbCc", '')
     ]
 )
-def test_match_gloves(toy, expected_first_non_repeated_letter):
+def test_find_unique_toy(toy, expected_first_non_repeated_letter):
     first_non_repeated_letter = find_unique_toy(toy)
 
     assert first_non_repeated_letter == expected_first_non_repeated_letter
