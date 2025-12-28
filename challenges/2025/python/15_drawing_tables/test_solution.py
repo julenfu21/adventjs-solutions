@@ -126,7 +126,7 @@ def test_draw_table_returns_string():
         )
     ]
 )
-def test_find_gift_path(data, sort_by, expected_table):
+def test_draw_table(data, sort_by, expected_table):
     table = draw_table(data, sort_by)
 
     assert table == expected_table
