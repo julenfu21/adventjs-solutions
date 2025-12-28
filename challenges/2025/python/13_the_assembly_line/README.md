@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Challenge #13: 🏭 The assembly line</h1>
+    <h1>Challenge #13: 🏭 The Assembly Line</h1>
 </div>
 
 <p align="center">
