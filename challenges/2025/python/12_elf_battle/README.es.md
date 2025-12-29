@@ -43,7 +43,7 @@ Devuelve el resultado de la batalla como un número:
 - `0` → si empatan (ambos llegan a 0 a la vez o terminan con la misma vida)
 
 
-## 💡 Examples
+## 💡 Ejemplos
 
 ```js
 elfBattle('A', 'B')

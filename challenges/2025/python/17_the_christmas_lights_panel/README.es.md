@@ -31,7 +31,7 @@ El panel se representa como una **matriz** donde cada celda puede ser:
 Los elfos quieren saber si en el panel existe una **línea de 4 luces del mismo color** encendidas y **alineadas** (solo horizontal ↔ o vertical ↕). Las luces apagadas (`'.'`) no cuentan.
 
 
-## 💡 Examples
+## 💡 Ejemplos
 
 ```js
 hasFourLights([

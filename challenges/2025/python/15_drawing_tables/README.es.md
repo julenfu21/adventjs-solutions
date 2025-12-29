@@ -37,7 +37,7 @@ La función recibe un segundo parámetro `sortBy` que indica el nombre del campo
 Mira el ejemplo para ver cómo debes dibujar la tabla:
 
 
-## 💡 Examples
+## 💡 Ejemplos
 
 ```js
 drawTable(

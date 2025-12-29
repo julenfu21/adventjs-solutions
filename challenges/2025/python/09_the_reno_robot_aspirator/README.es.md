@@ -40,7 +40,7 @@ Ten en cuenta que si el reno **recoge algo del suelo**, ya es `'success'`, indep
 **Importante**: Ten en cuenta que en el `board` la primera y última línea están en blanco y deben descartarse.
 
 
-## 💡 Examples
+## 💡 Ejemplos
 
 ```js
 const board = `

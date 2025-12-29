@@ -34,7 +34,7 @@ Tu tarea es escribir una función que, dado un objeto y un valor, devuelva el **
 - Si el valor no existe, devuelve un array vacío.
 
 
-## 💡 Examples
+## 💡 Ejemplos
 
 ```js
 const workshop = {

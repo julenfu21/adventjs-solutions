@@ -31,7 +31,7 @@ Ten en cuenta: *solo se considera como "adyacente" las 4 direcciones cardinales,
 Los regalos en las esquinas o bordes pueden estar sin vigilancia, siempre que no tengan cámaras directamente al lado.
 
 
-## 💡 Examples
+## 💡 Ejemplos
 
 ```js
 findUnsafeGifts([

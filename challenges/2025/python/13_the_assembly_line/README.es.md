@@ -40,7 +40,7 @@ Devuelve uno de estos valores:
 - `'broken'` si sale fuera del tablero
 
 
-## 💡 Examples
+## 💡 Ejemplos
 
 ```js
 runFactory([

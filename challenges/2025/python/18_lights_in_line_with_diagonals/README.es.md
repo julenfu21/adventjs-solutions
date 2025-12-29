@@ -31,7 +31,7 @@ El panel sigue siendo una matriz donde cada celda puede ser:
 Ahora tu función debe devolver `true` si existe una línea de 4 luces del mismo color encendidas y alineadas, ya sea **horizontal ↔, vertical ↕ o diagonal ↘↙.**
 
 
-## 💡 Examples
+## 💡 Ejemplos
 
 ```js
 hasFourInARow([

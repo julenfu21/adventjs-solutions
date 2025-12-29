@@ -29,7 +29,7 @@ Cuanto más profunda sea la anidación de los corchetes, más fuerte es el deseo
 Pero ¡cuidado! Algunas cartas pueden estar **mal escritas**. Si los corchetes no están correctamente balanceados (si se cierra antes de abrir, sobran cierres o faltan cierres), la carta es inválida y debes devolver `-1`.
 
 
-## 💡 Examples
+## 💡 Ejemplos
 
 ```js
 maxDepth('[]') // -> 1

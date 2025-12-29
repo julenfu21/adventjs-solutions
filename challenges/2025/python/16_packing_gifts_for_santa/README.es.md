@@ -29,7 +29,7 @@ Tu tarea es escribir una función que calcule el **número mínimo de trineos ne
 Eso sí, ten en cuenta que a veces hay un regalo que no cabe en el trineo, entonces hay que devolver `null` porque ese trineo no sirve para ese pack de regalos.
 
 
-## 💡 Examples
+## 💡 Ejemplos
 
 ```js
 packGifts([2, 3, 4, 1], 5)
