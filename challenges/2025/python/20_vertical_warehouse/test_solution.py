@@ -89,6 +89,6 @@ def test_drop_gifts_returns_list():
     ]
 )
 def test_drop_gifts(warehouse, drops, expected_warehouse):
-    full_path = drop_gifts(warehouse, drops)
+    new_warehouse = drop_gifts(warehouse, drops)
 
-    assert full_path == expected_warehouse
+    assert new_warehouse == expected_warehouse
