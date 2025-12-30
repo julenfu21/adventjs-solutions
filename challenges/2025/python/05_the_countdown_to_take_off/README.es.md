@@ -34,7 +34,7 @@ La función debe devolver:
 - Si el despegue ya ocurrió → un `número negativo` indicando cuántos segundos han pasado desde entonces.
 
 
-## 📜 Rules
+## 📜 Reglas
 
 - Convierte el formato elfo a un timestamp primero. El sufijo `NP` indica la hora oficial del Polo Norte (sin husos horarios ni DST), así que puedes tratarlo como si fuera UTC.
 - Usa diferencias en **segundos**, no en milisegundos.
