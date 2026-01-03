@@ -14,7 +14,7 @@
 
 ## 📖 Overview
 
-This folder contains my solutions proposed for the challenges in [AdventJS (2025)](https://adventjs.dev/), <img src="../../assets/python-logo.png" alt="Python" width="20" style="vertical-align: middle;"> **Python only**. Future years may include JavaScript and TypeScript solutions.
+This folder contains my solutions proposed for the challenges in [AdventJS (2025)](https://adventjs.dev/), <img src="../../assets/python-logo.png" alt="Python" width="20" style="vertical-align: middle;"> **Python only**. *Future years may include JavaScript and TypeScript solutions.*
 
 
 
@@ -47,3 +47,10 @@ This folder contains my solutions proposed for the challenges in [AdventJS (2025
 | 23  | [🎁 Gift Route](python/23_gift_route/) | <img src="https://img.shields.io/badge/Difficulty-MEDIUM-yellow" alt="Difficulty: Medium" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Score-7%2F8-blueviolet" alt="Score: 7-8" style="vertical-align: middle;"> |
 | 24  | [🪞 Check if Trees are Magical Mirrors](python/24_check_if_trees_are_magical_mirrors/) | <img src="https://img.shields.io/badge/Difficulty-MEDIUM-yellow" alt="Difficulty: Medium" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Score-8%2F8-blueviolet" alt="Score: 7-8" style="vertical-align: middle;"> |
 | 25  | [🪄 Execute the Magical Language](python/25_execute_the_magical_language/) | <img src="https://img.shields.io/badge/Difficulty-MEDIUM-yellow" alt="Difficulty: Medium" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Score-7%2F8-blueviolet" alt="Score: 7-8" style="vertical-align: middle;"> |
+
+
+## 🏆 Total Scores
+
+| Language | Total Score |
+|:--------:|:-----------:|
+| <img src="../../assets/python-logo.png" alt="Python" width="20" style="vertical-align: middle;"> Python | <img src="https://img.shields.io/badge/Score-173%2F200-lightcoral" alt="Score: 5-6" style="vertical-align: middle;"> |

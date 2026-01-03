@@ -14,7 +14,7 @@
 
 ## 📖 Información General
 
-Esta carpeta contiene mis soluciones propuestas para los retos de [AdventJS (2025)](https://adventjs.dev/), <img src="../../assets/python-logo.png" alt="Python" width="20" style="vertical-align: middle;"> **solo en Python**. Los próximos años podrían incluir soluciones en JavaScript y TypeScript.
+Esta carpeta contiene mis soluciones propuestas para los retos de [AdventJS (2025)](https://adventjs.dev/), <img src="../../assets/python-logo.png" alt="Python" width="20" style="vertical-align: middle;"> **solo en Python**. *Los próximos años podrían incluir soluciones en JavaScript y TypeScript.*
 
 
 ## 🧩 Retos
@@ -46,3 +46,10 @@ Esta carpeta contiene mis soluciones propuestas para los retos de [AdventJS (202
 | 23  | [🎁 Ruta de Regalos](python/23_gift_route/) | <img src="https://img.shields.io/badge/Dificultad-MEDIO-yellow" alt="Dificultad: Medio" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Puntuación-7%2F8-blueviolet" alt="Puntuación: 7-8" style="vertical-align: middle;"> |
 | 24  | [🪞 Verifica si los Árboles son Espejos Mágicos](python/24_check_if_trees_are_magical_mirrors/) | <img src="https://img.shields.io/badge/Dificultad-MEDIO-yellow" alt="Dificultad: Medio" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Puntuación-8%2F8-blueviolet" alt="Puntuación: 7-8" style="vertical-align: middle;"> |
 | 25  | [🪄 Ejecuta el Lenguaje Mágico](python/25_execute_the_magical_language/) | <img src="https://img.shields.io/badge/Dificultad-MEDIO-yellow" alt="Dificultad: Medio" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Puntuación-7%2F8-blueviolet" alt="Puntuación: 7-8" style="vertical-align: middle;"> |
+
+
+## 🏆 Puntuaciones Totales
+
+| Lenguaje | Puntuación Total |
+|:--------:|:-----------:|
+| <img src="../../assets/python-logo.png" alt="Python" width="20" style="vertical-align: middle;"> Python | <img src="https://img.shields.io/badge/Puntuación-173%2F200-lightcoral" alt="Puntuación: 5-6" style="vertical-align: middle;"> |
