@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Challenge #25: 🪄 Execute the magical language</h1>
+    <h1>Challenge #25: 🪄 Execute the Magical Language</h1>
 </div>
 
 <p align="center">
