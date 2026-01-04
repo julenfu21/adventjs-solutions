@@ -18,7 +18,7 @@ def test_draw_table_returns_string():
 @pytest.mark.parametrize(
     "data,sort_by,expected_table",
     [
-        (
+        pytest.param(
             [
                 { "name": "Charlie", "city": "New York" },
                 { "name": "Alice", "city": "London" },
@@ -35,9 +35,10 @@ def test_draw_table_returns_string():
                 | Charlie | New York |
                 +---------+----------+
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-2"
         ),
-        (
+        pytest.param(
             [
                 { "gift": "Book", "quantity": 5 },
                 { "gift": "Music CD", "quantity": 1 },
@@ -54,9 +55,10 @@ def test_draw_table_returns_string():
                 | Doll     | 10 |
                 +----------+----+
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-3"
         ),
-        (
+        pytest.param(
             [
                 { "name": "Alice", "city": "Paris" },
                 { "name": "Bob", "city": "London" }
@@ -71,9 +73,10 @@ def test_draw_table_returns_string():
                 | Alice | Paris  |
                 +-------+--------+
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-4"
         ),
-        (
+        pytest.param(
             [
                 { "name": "Alice", "city": "London" }
             ],
@@ -86,9 +89,10 @@ def test_draw_table_returns_string():
                 | Alice | London |
                 +-------+--------+
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-5"
         ),
-        (
+        pytest.param(
             [
                 { "a": 2, "b": "Y", "c": "X" },
                 { "a": 1, "b": "Z", "c": "W" },
@@ -105,9 +109,10 @@ def test_draw_table_returns_string():
                 | 3 | A | B |
                 +---+---+---+
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-6"
         ),
-        (
+        pytest.param(
             [
                 { "id": "zebra", "active": True },
                 { "id": "alpha", "active": False }
@@ -122,7 +127,8 @@ def test_draw_table_returns_string():
                 | zebra | True  |
                 +-------+-------+
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-7"
         )
     ]
 )
