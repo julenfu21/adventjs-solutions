@@ -22,7 +22,7 @@ This folder contains my solutions proposed for the challenges in [AdventJS (2025
 
 | Day | Challenge | Difficulty | <img src="../../assets/python-logo.png" alt="Python" width="24" style="vertical-align: middle;">|
 |:---:|---|:---:|:---:|
-| 01  | [🎁 Filter the Defective Gifts](python/01_filter_the_defective_gifts/) | <img src="https://img.shields.io/badge/Difficulty-EASY-brightgreen" alt="Difficulty: Easy" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Score-6%2F8-lightcoral" alt="Score: 5-6" style="vertical-align: middle;"> |
+| 01  | [🎁 Filter the Defective Gifts](01_filter_the_defective_gifts/README.md) | <img src="https://img.shields.io/badge/Difficulty-EASY-brightgreen" alt="Difficulty: Easy" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Score-6%2F8-lightcoral" alt="Score: 5-6" style="vertical-align: middle;"> |
 | 02  | [🏭 Manufacture the Toys](python/02_manufacture_the_toys/) | <img src="https://img.shields.io/badge/Difficulty-EASY-brightgreen" alt="Difficulty: Easy" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Score-6%2F8-lightcoral" alt="Score: 5-6" style="vertical-align: middle;"> |
 | 03  | [👶 Help the Intern](python/03_help_the_intern/) | <img src="https://img.shields.io/badge/Difficulty-EASY-brightgreen" alt="Difficulty: Easy" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Score-7%2F8-blueviolet" alt="Score: 7-8" style="vertical-align: middle;"> |
 | 04  | [🧮 Decipher the Santa PIN](python/04_decipher_the_santa_pin/) | <img src="https://img.shields.io/badge/Difficulty-MEDIUM-yellow" alt="Difficulty: Medium" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Score-6%2F8-lightcoral" alt="Score: 5-6" style="vertical-align: middle;"> |
@@ -54,3 +54,8 @@ This folder contains my solutions proposed for the challenges in [AdventJS (2025
 | Language | Total Score |
 |:--------:|:-----------:|
 | <img src="../../assets/python-logo.png" alt="Python" width="20" style="vertical-align: middle;"> Python | <img src="https://img.shields.io/badge/Score-173%2F200-lightcoral" alt="Score: 5-6" style="vertical-align: middle;"> |
+
+
+## 📝 Notes
+
+- **🧠 Code Review**: AdventJS seems to generate the content of this section via an LLM. Thus, the information provided might not be 100% accurate.

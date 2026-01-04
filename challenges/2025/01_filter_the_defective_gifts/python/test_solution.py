@@ -18,13 +18,6 @@ def test_filter_gifts_returns_list():
         ([], []),
         (["game", "poster", "sticker#bad", "console"], ["game", "poster", "console"]),
         (["#bad", "car", "#oops", "ball"], ["car", "ball"])
-    ],
-    ids=[
-        "mixed_good_and_bad",
-        "all_bad",
-        "empty_list",
-        "mixed_2",
-        "bad_prefix_mixed"
     ]
 )
 def test_filter_gifts(gifts, expected_gifts):

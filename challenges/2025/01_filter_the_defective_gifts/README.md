@@ -4,7 +4,6 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Difficulty-EASY-brightgreen" alt="Difficulty: Easy" style="margin-right:16px;">
-    <img src="https://img.shields.io/badge/Score-6%2F8-lightcoral" alt="Score: 5-6">
 </p>
 <br>
 
@@ -16,6 +15,13 @@
         <img src="https://img.shields.io/badge/Language-es-yellow.svg" alt="Spanish">
     </a>
 </p>
+
+
+## 💻 Implementations & Scores
+
+| Language | Score | Implementation |
+|:--------:|:-----:|----------------|
+| <img src="../../../assets/python-logo.png" alt="Python" width="20" style="vertical-align: middle;"> Python | <img src="https://img.shields.io/badge/Score-6%2F8-lightcoral" alt="Score: 5-6" style="vertical-align: middle;"> | [Go to Implementation](python/README.md) |
 
 
 ## 🎯 Instructions
