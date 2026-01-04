@@ -40,17 +40,17 @@ pytest test_solution.py
 Ejecutar un test en específico:
 
 ```bash
-# <test_function> = {test_draw_gift_returns_string, test_draw_gift}
+# <función_de_test> = {test_draw_gift_returns_string, test_draw_gift}
 
-pytest test_solution.py::<test_function>
+pytest test_solution.py::<función_de_test>
 ```
 
 Ejecutar un test parametrizado individual:
 
 ```bash
-# <index> = {2 - 6}
+# <índice> = {2 - 6}
 
-pytest test_solution.py::test_draw_gift[test-<index>]
+pytest test_solution.py::test_draw_gift[test-<índice>]
 ```
 
 
