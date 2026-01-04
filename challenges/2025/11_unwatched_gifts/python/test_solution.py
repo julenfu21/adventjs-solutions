@@ -16,31 +16,34 @@ def test_find_unsafe_gifts_returns_int():
 
 @pytest.mark.parametrize(
     "warehouse,expected_count", [
-        (
+        pytest.param(
             [
                 ".*.",
                 "*#*",
                 ".*."
             ],
-            0
+            0,
+            id="test-2"
         ),
-        (
+        pytest.param(
             [
                 "...",
                 ".*.",
                 "..."
             ],
-            1
+            1,
+            id="test-3"
         ),
-        (
+        pytest.param(
             [
                 "*.*",
                 "...",
                 "*#*"
             ],
-            2
+            2,
+            id="test-4"
         ),
-        (
+        pytest.param(
             [
                 ".....",
                 ".*.*.",
@@ -48,31 +51,35 @@ def test_find_unsafe_gifts_returns_int():
                 ".*.*.",
                 "....."
             ],
-            4
+            4,
+            id="test-5"
         ),
-        (
+        pytest.param(
             [
                 "#*.",
                 "...",
                 "..#"
             ],
-            0
+            0,
+            id="test-6"
         ),
-        (
+        pytest.param(
             [
                 "...#....",
                 "..*#*..",
                 "...#...."
             ],
-            0
+            0,
+            id="test-7"
         ),
-        (
+        pytest.param(
             [
                 "*.*",
                 "...",
                 "*.*"
             ],
-            4
+            4,
+            id="test-8"
         )
     ]
 )
