@@ -16,7 +16,7 @@ def test_draw_tree_returns_string():
 
 @pytest.mark.parametrize(
     "height,ornament,frequency,expected_drawing", [
-        (
+        pytest.param(
             5,
             'o',
             2,
@@ -29,9 +29,10 @@ def test_draw_tree_returns_string():
                 *o*o*o*o*
                     #
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-2"
         ),
-        (
+        pytest.param(
             3,
             '@',
             3,
@@ -42,9 +43,10 @@ def test_draw_tree_returns_string():
                 *@**@
                   #
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-3"
         ),
-        (
+        pytest.param(
             4,
             '+',
             1,
@@ -56,9 +58,10 @@ def test_draw_tree_returns_string():
                 +++++++
                    #
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-4"
         ),
-        (
+        pytest.param(
             1,
             'x',
             2,
@@ -67,9 +70,10 @@ def test_draw_tree_returns_string():
                 *
                 #    
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-5"
         ),
-        (
+        pytest.param(
             2,
             'o',
             2,
@@ -79,7 +83,8 @@ def test_draw_tree_returns_string():
                 o*o
                  #
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-6"
         )
     ]
 )
