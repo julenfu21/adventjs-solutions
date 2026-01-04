@@ -49,13 +49,6 @@ def test_manufacture_gifts_returns_list():
             ],
             ["robot", "robot", "ball"]
         )
-    ],
-    ids=[
-        "normal_case",
-        "zero_and_negative_quantity",
-        "empty_list",
-        "mixed_quantities",
-        "negative_quantity_filter"
     ]
 )
 def test_manufacture_gifts(gifts_to_produce, expected_toys):
