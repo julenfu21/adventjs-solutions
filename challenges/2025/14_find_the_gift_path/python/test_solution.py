@@ -23,7 +23,7 @@ def test_find_gift_path_returns_list():
 @pytest.mark.parametrize(
     "workshop,gift,expected_path",
     [
-        (
+        pytest.param(
             {
                 "storage": {
                     "shelf": {
@@ -35,9 +35,10 @@ def test_find_gift_path_returns_list():
                 "gift": "doll"
             },
             "train",
-            ["storage", "shelf", "box1"]
+            ["storage", "shelf", "box1"],
+            id="test-2"
         ),
-        (
+        pytest.param(
             {
                 "storage": {
                     "shelf": {
@@ -49,24 +50,28 @@ def test_find_gift_path_returns_list():
                 "gift": "doll"
             },
             "switch",
-            ["storage", "shelf", "box2"]
+            ["storage", "shelf", "box2"],
+            id="test-3"
         ),
-        (
+        pytest.param(
             {"storage":{"shelf":{"box1":"train","box2":"switch"},"box":"car"},"gift":"doll"},
             "car",
-            ["storage", "box"]
+            ["storage", "box"],
+            id="test-4"
         ),
-        (
+        pytest.param(
             {"storage":{"shelf":{"box1":"train","box2":"switch"},"box":"car"},"gift":"doll"},
             "doll",
-            ["gift"]
+            ["gift"],
+            id="test-5"
         ),
-        (
+        pytest.param(
             {"storage":{"shelf":{"box1":"train","box2":"switch"},"box":"car"},"gift":"doll"},
             "plane",
-            []
+            [],
+            id="test-6"
         ),
-        (
+        pytest.param(
             {
                 "a": {
                     "b": {
@@ -75,9 +80,10 @@ def test_find_gift_path_returns_list():
                 }
             },
             42,
-            ["a", "b", "c"]
+            ["a", "b", "c"],
+            id="test-7"
         ),
-        (
+        pytest.param(
             {
                 "ok": True,
                 "nested": {
@@ -88,7 +94,8 @@ def test_find_gift_path_returns_list():
                 }
             },
             False,
-            ["nested", "nope"]
+            ["nested", "nope"],
+            id="test-8"
         )
     ]
 )
