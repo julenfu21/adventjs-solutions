@@ -12,16 +12,16 @@ def test_find_unique_toy_returns_string():
 
 @pytest.mark.parametrize(
     "toy,expected_first_non_repeated_letter", [
-        ("Gift", 'G'),
-        ("sS", ''),
-        ("reindeeR", 'i'),
-        ("T", 'T'),
-        ("aA", ''),
-        ("z", 'z'),
-        ("", ''),
-        ("a", 'a'),
-        ("aabbc", 'c'),
-        ("AaBbCc", '')
+        pytest.param("Gift", 'G', id="test-2"),
+        pytest.param("sS", '', id="test-3"),
+        pytest.param("reindeeR", 'i', id="test-4"),
+        pytest.param("T", 'T', id="test-5"),
+        pytest.param("aA", '', id="test-6"),
+        pytest.param("z", 'z', id="test-7"),
+        pytest.param("", '', id="test-8"),
+        pytest.param("a", 'a', id="test-9"),
+        pytest.param("aabbc", 'c', id="test-10"),
+        pytest.param("AaBbCc", '', id="test-11")
     ]
 )
 def test_find_unique_toy(toy, expected_first_non_repeated_letter):
