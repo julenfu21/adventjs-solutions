@@ -13,13 +13,13 @@ def test_elf_battle_returns_int():
 
 @pytest.mark.parametrize(
     "elf1,elf2,expected_outcome", [
-        ("A", "B", 0),
-        ("F", "B", 1),
-        ("AAB", "BBA", 0),
-        ("AFA", "BBA", 1),
-        ("AFAB", "BBAF", 1),
-        ("AA", "FF", 2),
-        ("AAFFFBBB", "ABBBBFFF", 1)
+        pytest.param("A", "B", 0, id="test-2"),
+        pytest.param("F", "B", 1, id="test-3"),
+        pytest.param("AAB", "BBA", 0, id="test-4"),
+        pytest.param("AFA", "BBA", 1, id="test-5"),
+        pytest.param("AFAB", "BBAF", 1, id="test-6"),
+        pytest.param("AA", "FF", 2, id="test-7"),
+        pytest.param("AAFFFBBB", "ABBBBFFF", 1, id="test-8")
     ]
 )
 def test_elf_battle(elf1, elf2, expected_outcome):
