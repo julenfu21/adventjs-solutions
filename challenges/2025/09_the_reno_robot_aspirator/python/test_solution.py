@@ -22,7 +22,7 @@ def test_move_reno_returns_string():
 
 @pytest.mark.parametrize(
     "board,moves,expected_state", [
-        (
+        pytest.param(
             dedent(
                 """
                 .....
@@ -32,9 +32,10 @@ def test_move_reno_returns_string():
                 """
             ),
             "U",
-            "success"
+            "success",
+            id="test-2"
         ),
-        (
+        pytest.param(
             dedent(
                 """
                 .....
@@ -44,9 +45,10 @@ def test_move_reno_returns_string():
                 """
             ),
             "RRRUU",
-            "success"
+            "success",
+            id="test-3"
         ),
-        (
+        pytest.param(
             dedent(
                 """
                 .....
@@ -56,9 +58,10 @@ def test_move_reno_returns_string():
                 """
             ),
             "D",
-            "fail"
+            "fail",
+            id="test-4"
         ),
-        (
+        pytest.param(
             dedent(
                 """
                 .....
@@ -68,9 +71,10 @@ def test_move_reno_returns_string():
                 """
             ),
             "DD",
-            "crash"
+            "crash",
+            id="test-5"
         ),
-        (
+        pytest.param(
             dedent(
                 """
                 .....
@@ -80,9 +84,10 @@ def test_move_reno_returns_string():
                 """
             ),
             "RU",
-            "crash"
+            "crash",
+            id="test-6"
         ),
-        (
+        pytest.param(
             dedent(
                 """
                 .....
@@ -92,9 +97,10 @@ def test_move_reno_returns_string():
                 """
             ),
             "UUU",
-            "success"
+            "success",
+            id="test-7"
         ),
-        (
+        pytest.param(
             dedent(
                 """
                 .....
@@ -104,9 +110,10 @@ def test_move_reno_returns_string():
                 """
             ),
             "RR",
-            "fail"
+            "fail",
+            id="test-8"
         ),
-        (
+        pytest.param(
             dedent(
                 """
                 .....
@@ -116,7 +123,8 @@ def test_move_reno_returns_string():
                 """
             ),
             "RRRRRRRRR",
-            "success"
+            "success",
+            id="test-9"
         )
     ]
 )

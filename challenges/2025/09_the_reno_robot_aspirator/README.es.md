@@ -3,8 +3,7 @@
 </div>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Dificultad-DIFÍCIL-red" alt="Dificultad: Difícil" style="margin-right:16px;">
-    <img src="https://img.shields.io/badge/Puntuación-7%2F8-blueviolet" alt="Puntuación: 7-8">
+    <img src="https://img.shields.io/badge/Dificultad-DIFÍCIL-red" alt="Dificultad: Difícil">
 </p>
 <br>
 
@@ -16,6 +15,13 @@
         <img src="https://img.shields.io/badge/Idioma-en-red.svg" alt="Inglés">
     </a>
 </p>
+
+
+## 💻 Implementaciones y Puntuaciones
+
+| Lenguaje | Puntuación | Implementación |
+|:--------:|:-----:|----------------|
+| <img src="../../../assets/python-logo.png" alt="Python" width="20" style="vertical-align: middle;"> Python | <img src="https://img.shields.io/badge/Puntuación-7%2F8-blueviolet" alt="Puntuación: 7-8" style="vertical-align: middle;"> | [Ir a la Implementación](python/README.es.md) |
 
 
 ## 🎯 Instrucciones
