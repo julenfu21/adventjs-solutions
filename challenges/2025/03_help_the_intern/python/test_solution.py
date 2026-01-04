@@ -15,8 +15,8 @@ def test_draw_gift_returns_string():
 
 @pytest.mark.parametrize(
     "size,symbol,expected_drawing", [
-        (1, '+', ""),
-        (
+        pytest.param(1, '+', "", id="test-2"),
+        pytest.param(
             2,
             '#',
             dedent(
@@ -24,9 +24,10 @@ def test_draw_gift_returns_string():
                 ##
                 ##
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-3"
         ),
-        (
+        pytest.param(
             3,
             '#',
             dedent(
@@ -35,9 +36,10 @@ def test_draw_gift_returns_string():
                 # #
                 ###
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-4"
         ),
-        (
+        pytest.param(
             4,
             '*',
             dedent(
@@ -47,9 +49,10 @@ def test_draw_gift_returns_string():
                 *  *
                 ****
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-5"
         ),
-        (
+        pytest.param(
             5,
             '@',
             dedent(
@@ -60,7 +63,8 @@ def test_draw_gift_returns_string():
                 @   @
                 @@@@@
                 """
-            ).rstrip()
+            ).rstrip(),
+            id="test-6"
         )
     ]
 )
