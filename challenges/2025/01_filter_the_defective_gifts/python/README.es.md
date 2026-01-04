@@ -48,9 +48,9 @@ pytest test_solution.py::<función_de_test>
 Ejecutar un test parametrizado individual:
 
 ```bash
-# <índice> = {0 - 4}
+# <índice> = {2 - 6}
 
-pytest test_solution.py::test_filter_gifts[gifts<índice>-expected_gifts<índice>]
+pytest test_solution.py::test_filter_gifts[test-<index>]
 ```
 
 

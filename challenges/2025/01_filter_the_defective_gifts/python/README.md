@@ -48,9 +48,9 @@ pytest test_solution.py::<test_function>
 Run an individual parametrized test case:
 
 ```bash
-# <index> = {0 - 4}
+# <index> = {2 - 6}
 
-pytest test_solution.py::test_filter_gifts[gifts<index>-expected_gifts<index>]
+pytest test_solution.py::test_filter_gifts[test-<index>]
 ```
 
 

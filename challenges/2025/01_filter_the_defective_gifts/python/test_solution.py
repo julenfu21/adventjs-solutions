@@ -13,11 +13,11 @@ def test_filter_gifts_returns_list():
 @pytest.mark.parametrize(
     "gifts,expected_gifts",
     [
-        (["car", "doll#arm", "ball", "#train"], ["car", "ball"]),
-        (["#broken", "#rusty"], []),
-        ([], []),
-        (["game", "poster", "sticker#bad", "console"], ["game", "poster", "console"]),
-        (["#bad", "car", "#oops", "ball"], ["car", "ball"])
+        pytest.param(["car", "doll#arm", "ball", "#train"], ["car", "ball"], id="test-2"),
+        pytest.param(["#broken", "#rusty"], [], id="test-3"),
+        pytest.param([], [], id="test-4"),
+        pytest.param(["game", "poster", "sticker#bad", "console"], ["game", "poster", "console"], id="test-5"),
+        pytest.param(["#bad", "car", "#oops", "ball"], ["car", "ball"], id="test-6")
     ]
 )
 def test_filter_gifts(gifts, expected_gifts):
