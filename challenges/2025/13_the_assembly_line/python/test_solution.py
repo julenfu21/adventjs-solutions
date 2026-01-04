@@ -12,45 +12,50 @@ def test_run_factory_returns_string():
 
 @pytest.mark.parametrize(
     "factory,expected_state", [
-        ([">>."], "completed"),
-        ([">>>"], "broken"),
-        ([">><"], "loop"),
-        (
+        pytest.param([">>."], "completed", id="test-2"),
+        pytest.param([">>>"], "broken", id="test-3"),
+        pytest.param([">><"], "loop", id="test-4"),
+        pytest.param(
             [
                 ">>v",
                 "..<"
             ],
-            "completed"
+            "completed",
+            id="test-5"
         ),
-        (
+        pytest.param(
             [
                 ">>v",
                 "<<<"
             ],
-            "broken"
+            "broken",
+            id="test-6"
         ),
-        (
+        pytest.param(
             [
                 ">v.",
                 "^.."
             ],
-            "completed"
+            "completed",
+            id="test-7"
         ),
-        (
+        pytest.param(
             [
                 "v.",
                 "^."
             ],
-            "loop"
+            "loop",
+            id="test-8"
         ),
-        (["."], "completed"),
-        (["^"], "broken"),
-        (
+        pytest.param(["."], "completed", id="test-9"),
+        pytest.param(["^"], "broken", id="test-10"),
+        pytest.param(
             [
                 "v",
                 "^"
             ],
-            "loop"
+            "loop",
+            id="test-11"
         )
     ]
 )
