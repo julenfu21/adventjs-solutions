@@ -15,15 +15,16 @@ def test_reveal_santa_route_returns_list():
 @pytest.mark.parametrize(
     "routes,expected_path",
     [
-        (
+        pytest.param(
             [
                 ["MEX", "CAN"],
                 ["UK", "GER"],
                 ["CAN", "UK"]
             ],
-            ["MEX", "CAN", "UK", "GER"]
+            ["MEX", "CAN", "UK", "GER"],
+            id="test-2"
         ),
-        (
+        pytest.param(
             [
                 ["USA", "BRA"],
                 ["JPN", "PHL"],
@@ -31,23 +32,26 @@ def test_reveal_santa_route_returns_list():
                 ["UAE", "JPN"],
                 ["CMX", "HKN"]
             ],
-            ["USA", "BRA", "UAE", "JPN", "PHL"]
+            ["USA", "BRA", "UAE", "JPN", "PHL"],
+            id="test-3"
         ),
-        (
+        pytest.param(
             [
                 ["STA", "HYD"],
                 ["ESP", "CHN"]
             ],
-            ["STA", "HYD"]
+            ["STA", "HYD"],
+            id="test-4"
         ),
-        (
+        pytest.param(
             [
                 ["A", "B"],
                 ["C", "D"],
                 ["E", "F"],
                 ["G", "H"]
             ],
-            ["A", "B"]
+            ["A", "B"],
+            id="test-5"
         )
     ]
 )
