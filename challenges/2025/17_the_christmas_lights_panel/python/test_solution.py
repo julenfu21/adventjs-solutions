@@ -16,57 +16,64 @@ def test_has_four_lights_returns_boolean():
 @pytest.mark.parametrize(
     "board,expected_result",
     [
-        (
+        pytest.param(
             [
                 ['.', '.', '.', '.', '.'],
                 ['R', 'R', 'R', 'R', '.'],
                 ['G', 'G', '.', '.', '.']
             ],
-            True
+            True,
+            id="test-2"
         ),
-        (
+        pytest.param(
             [
                 ['.', 'G', '.', '.'],
                 ['.', 'G', '.', '.'],
                 ['.', 'G', '.', '.'],
                 ['.', 'G', '.', '.']
             ],
-            True
+            True,
+            id="test-3"
         ),
-        (
+        pytest.param(
             [
                 ['R', 'G', 'R'],
                 ['G', 'R', 'G'],
                 ['G', 'R', 'G']
             ],
-            False
+            False,
+            id="test-4"
         ),
-        (
+        pytest.param(
             [
                 ['R', 'R', 'R', '.'],
                 ['.', '.', '.', '.']
             ],
-            False
+            False,
+            id="test-5"
         ),
-        (
+        pytest.param(
             [
                 ['.', '.', 'R', 'R', 'R', 'R'],
                 ['.', '.', '.', '.', '.', '.']
             ],
-            True
+            True,
+            id="test-6"
         ),
-        (
+        pytest.param(
             [
                 ['.', '.', '.', '.'],
                 ['.', '.', '.', '.']
             ],
-            False
+            False,
+            id="test-7"
         ),
-        (
+        pytest.param(
             [
                 ['G', 'G', 'G', 'G', 'G']
             ],
-            True
+            True,
+            id="test-8"
         )
     ]
 )
