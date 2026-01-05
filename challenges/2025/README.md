@@ -14,7 +14,7 @@
 
 ## 📖 Overview
 
-This folder contains my solutions proposed for the challenges in [AdventJS (2025)](https://adventjs.dev/), <img src="../../assets/python-logo.png" alt="Python" width="20" style="vertical-align: middle;"> **Python only**. *Future years may include JavaScript and TypeScript solutions.*
+This folder contains my solutions proposed to the [AdventJS (2025)](https://adventjs.dev/) challenges, <img src="../../assets/python-logo.png" alt="Python" width="20" style="vertical-align: middle;"> **Python only**. *Future years may include JavaScript and TypeScript solutions.*
 
 
 
