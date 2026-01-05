@@ -59,4 +59,7 @@ pytest test_solution.py::test_match_gloves[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La solución es correcta y maneja eficientemente el emparejamiento de guantes.
+- El uso de `defaultdict` es apropiado para contar los guantes por color y mano.
+- El código es limpio, legible y sigue las convenciones de estilo de Python.
+- La lógica para formar pares es clara y eficiente, evitando anidamientos innecesarios.

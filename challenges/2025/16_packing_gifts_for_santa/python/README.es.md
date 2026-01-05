@@ -59,4 +59,7 @@ pytest test_solution.py::test_pack_gifts[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La lógica para calcular el número mínimo de trineos es correcta y eficiente.
+- El código maneja correctamente los casos de borde, como una lista de regalos vacía o regalos que exceden el peso máximo del trineo.
+- El uso de variables descriptivas mejora la legibilidad.
+- El flujo de control es claro y fácil de seguir.

@@ -59,4 +59,7 @@ pytest test_solution.py::test_max_depth[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- The code correctly handles all specified edge cases for bracket balancing.
+- The logic for tracking current and maximum depth is clear and efficient.
+- Variable names are descriptive and follow Python conventions.
+- The algorithm is optimal for this problem, with a single pass through the string.

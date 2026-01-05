@@ -59,4 +59,7 @@ pytest test_solution.py::test_has_four_lights[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- The code correctly identifies horizontal and vertical lines of four lights.
+- It handles edge cases where lines might extend beyond the board boundaries.
+- The use of `all()` with a generator expression is efficient and Pythonic.
+- Variable names are clear and the code is well-formatted.

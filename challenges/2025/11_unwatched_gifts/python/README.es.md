@@ -59,4 +59,7 @@ pytest test_solution.py::test_find_unsafe_gifts[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- El código es correcto y maneja adecuadamente los casos de borde.
+- La lógica para verificar la vigilancia de los regalos es clara y concisa.
+- El uso de nombres descriptivos para las variables mejora la legibilidad.
+- La eficiencia del algoritmo es adecuada para el problema planteado.

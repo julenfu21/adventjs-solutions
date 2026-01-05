@@ -59,4 +59,8 @@ pytest test_solution.py::test_find_unique_toy[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La lógica para contar frecuencias de caracteres es correcta y eficiente.
+- El código maneja correctamente la distinción entre mayúsculas y minúsculas al contar, pero devuelve la letra original.
+- El bucle para encontrar el primer carácter único es claro y directo.
+- El manejo del caso en que no hay caracteres únicos (devolviendo una cadena vacía) es correcto.
+- El uso de `defaultdict` es apropiado para simplificar el conteo de frecuencias.

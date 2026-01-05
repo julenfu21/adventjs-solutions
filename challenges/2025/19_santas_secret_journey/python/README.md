@@ -59,4 +59,8 @@ pytest test_solution.py::test_reveal_santa_route[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- The code correctly reconstructs Santa's route by iteratively finding the next segment.
+- The use of a helper function `get_next_trip_segment` improves readability and modularity.
+- The solution handles cases where segments might not belong to the main route by simply not including them.
+- Variable names are descriptive and follow Python conventions.
+- The code is clean, well-structured, and easy to understand.

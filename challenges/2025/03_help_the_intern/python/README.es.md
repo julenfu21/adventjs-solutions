@@ -59,4 +59,7 @@ pytest test_solution.py::test_draw_gift[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- El código maneja correctamente los casos de borde, como `size < 2`.
+- La lógica para construir el regalo es clara y eficiente.
+- Se utilizan nombres de variables descriptivos.
+- El código es fácil de leer y entender.

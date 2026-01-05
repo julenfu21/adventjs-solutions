@@ -59,4 +59,7 @@ pytest test_solution.py::test_draw_tree[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La lógica para construir el árbol y el tronco es correcta y eficiente.
+- El manejo del índice acumulativo de elementos es preciso y cumple con los requisitos del desafío.
+- El código está bien formateado, utiliza nombres de variables descriptivos y es fácil de leer.
+- La solución es robusta y maneja correctamente los casos de borde implícitos en la lógica del árbol.

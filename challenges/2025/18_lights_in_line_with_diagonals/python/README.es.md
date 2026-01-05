@@ -59,4 +59,7 @@ pytest test_solution.py::test_has_four_in_a_row[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La lógica para detectar líneas horizontales, verticales y diagonales es correcta y cubre los casos necesarios.
+- El uso de funciones auxiliares para cada tipo de línea mejora la legibilidad del código principal.
+- El código maneja correctamente los límites del tablero para evitar errores de índice.
+- La estructura general del código es clara y fácil de seguir.

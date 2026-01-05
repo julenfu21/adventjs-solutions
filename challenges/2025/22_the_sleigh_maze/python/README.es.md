@@ -59,4 +59,17 @@ pytest test_solution.py::test_can_escape[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La implementación utiliza una búsqueda en anchura (BFS) de manera efectiva para resolver el problema del laberinto.
+- El código está bien estructurado con funciones auxiliares claras para la obtención de la posición inicial, la validación de coordenadas y la obtención de vecinos.
+- El uso de `dataclass` para `Square` mejora la legibilidad y la inmutabilidad de las coordenadas.
+- El manejo de `visited` y la cola (`deque`) es correcto para un algoritmo BFS.
+
+
+### ⚠️ Puntos a Mejorar
+
+- La complejidad ciclomática es alta (24), lo que indica un flujo de control potencialmente complejo. Aunque las funciones auxiliares ayudan a modularizar, el bucle principal y las condiciones internas contribuyen a esta métrica.
+
+
+### 🧭 Próximos Pasos
+
+- Considerar refactorizar el bucle principal del BFS para simplificar el flujo de control y reducir la complejidad ciclomática, si es posible sin sacrificar la claridad.

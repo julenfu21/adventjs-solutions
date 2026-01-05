@@ -59,4 +59,7 @@ pytest test_solution.py::test_run_factory[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La lógica para simular el recorrido de la fábrica es correcta y maneja los tres casos de salida ('completed', 'loop', 'broken').
+- El uso de `dataclass` para `Location` y `set` para `explored_locations` es eficiente y apropiado.
+- La separación de la lógica en funciones auxiliares (`is_out_of_bounds`, `get_next_move`, `update_present_location`, `get_location_state`) mejora la legibilidad y modularidad.
+- El código es limpio, bien formateado y utiliza nombres descriptivos para variables y funciones.

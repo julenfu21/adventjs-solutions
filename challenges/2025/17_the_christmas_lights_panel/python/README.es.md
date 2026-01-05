@@ -59,4 +59,7 @@ pytest test_solution.py::test_has_four_lights[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- El código es correcto y maneja eficientemente la búsqueda de líneas de 4 luces.
+- La lógica para verificar filas horizontales y verticales es clara y concisa.
+- El uso de `all()` es una forma eficiente de verificar las condiciones.
+- El código está bien formateado y es fácil de leer.

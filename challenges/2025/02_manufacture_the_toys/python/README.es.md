@@ -59,4 +59,7 @@ pytest test_solution.py::test_manufacture_gifts[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- El código es correcto y maneja los casos de borde especificados (cantidades no válidas).
+- La lógica es clara y fácil de seguir.
+- Utiliza estructuras de datos apropiadas y eficientes para la tarea.
+- El código es limpio, legible y sigue las convenciones de estilo de Python.

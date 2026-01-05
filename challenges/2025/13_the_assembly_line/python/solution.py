@@ -66,7 +66,7 @@ def run_factory(factory: list[str]) -> str:
         next_move = get_next_move(factory, current_location)
         current_location = update_present_location(current_location, next_move)
         final_location_state = get_location_state(
-        current_location, explored_locations, factory
+            current_location, explored_locations, factory
         )
 
     return final_location_state

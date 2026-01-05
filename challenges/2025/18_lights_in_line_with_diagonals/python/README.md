@@ -59,4 +59,7 @@ pytest test_solution.py::test_has_four_in_a_row[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- The code correctly identifies horizontal, vertical, and diagonal lines of four.
+- Helper functions are well-defined and improve readability.
+- The use of `all()` and `any()` is appropriate for checking conditions.
+- Edge cases for board boundaries are handled correctly within the helper functions.

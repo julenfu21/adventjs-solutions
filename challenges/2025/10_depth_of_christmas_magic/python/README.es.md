@@ -59,4 +59,6 @@ pytest test_solution.py::test_max_depth[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La lógica para calcular la profundidad máxima y detectar desbalances de corchetes es correcta y eficiente.
+- El código es limpio, legible y sigue las convenciones de estilo de Python.
+- Maneja adecuadamente los casos de borde, como cadenas vacías o con corchetes desbalanceados.

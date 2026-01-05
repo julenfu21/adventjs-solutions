@@ -59,4 +59,18 @@ pytest test_solution.py::test_execute[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La estructura del código es modular y utiliza funciones auxiliares para procesar bucles y condicionales, lo que mejora la legibilidad.
+- La lógica para manejar los bucles y condicionales parece correcta, incluyendo el manejo de los saltos de instrucción.
+- El uso de tipos (`Literal`) para `expression_end_symbol` es una buena práctica.
+
+
+### ⚠️ Puntos a Mejorar
+
+- La función `get_scope_of_special_expression` asume que el símbolo de fin siempre se encontrará, lo que podría causar un error si la expresión está mal formada (por ejemplo, un `{` sin un `}`).
+- La recursión implícita a través de `process_expression` llamando a `process_conditional_expression` y `process_loop_expression`, y estas a su vez a `process_expression`, podría llevar a un desbordamiento de pila para programas muy anidados (aunque el problema especifica que no hay anidamiento de dos bucles o dos condicionales, la estructura general podría ser un problema en otros contextos).
+
+
+### 🧭 Próximos Pasos
+
+- Implementar manejo de errores en `get_scope_of_special_expression` para el caso en que no se encuentre el símbolo de fin de expresión.
+- Considerar una implementación iterativa con una pila explícita para el manejo de bucles y condicionales si se anticipa la posibilidad de anidamiento profundo en futuras versiones del lenguaje.

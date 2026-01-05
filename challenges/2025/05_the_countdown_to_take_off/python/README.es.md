@@ -59,4 +59,7 @@ pytest test_solution.py::test_time_until_take_off[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- El código es correcto y maneja adecuadamente la conversión de formatos de fecha y la diferencia de tiempo.
+-  La lógica para calcular la diferencia en segundos es clara y eficiente.
+-  El uso de `datetime.strptime` y `total_seconds()` es apropiado para la tarea.
+-  El código es limpio, legible y sigue las convenciones de Python.

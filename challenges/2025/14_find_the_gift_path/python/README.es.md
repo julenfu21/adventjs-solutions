@@ -59,4 +59,7 @@ pytest test_solution.py::test_find_gift_path[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La lógica para encontrar el camino del regalo es correcta y maneja adecuadamente los diferentes niveles de profundidad del objeto.
+- El código es limpio y fácil de leer, con nombres de variables descriptivos.
+- La recursión se utiliza de manera efectiva para explorar el objeto.
+- Se maneja correctamente el caso en que el regalo no se encuentra, devolviendo un array vacío.

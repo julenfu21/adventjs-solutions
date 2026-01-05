@@ -59,4 +59,8 @@ pytest test_solution.py::test_is_trees_synchronized[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- The code correctly implements the logic for checking if two binary trees are mirrors of each other.
+- The use of recursion in `are_trees_equal` is appropriate for traversing the trees.
+- The helper function `get_subtree_or_none` improves readability by abstracting away the dictionary key access.
+- The code handles edge cases such as empty subtrees gracefully.
+- The final return statement correctly provides the synchronization status and the root value of the first tree.

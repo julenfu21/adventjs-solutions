@@ -59,4 +59,11 @@ pytest test_solution.py::test_time_until_take_off[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- The code correctly parses the custom date format and calculates the time difference in seconds.
+- It handles edge cases like being exactly at takeoff time or after takeoff time correctly.
+- The use of `datetime.strptime` and `total_seconds` is appropriate and efficient.
+
+
+### 🧭 Next Steps
+
+- Consider adding a constant for the `north_pole_format` string to improve readability and maintainability, especially if this format were to be used elsewhere.

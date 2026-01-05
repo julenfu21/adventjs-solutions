@@ -59,4 +59,17 @@ pytest test_solution.py::test_elf_battle[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- The code correctly implements the battle logic and handles simultaneous moves.
+- Helper functions `attack_other_player` and `has_player_lost` improve readability.
+- The use of `zip` to iterate through moves is efficient and clear.
+- Edge cases like simultaneous loss and the battle ending mid-round are handled.
+
+
+### ⚠️ Weak Points
+
+- The cyclomatic complexity is high due to nested conditional logic within the loop and helper functions.
+
+
+### 🧭 Next Steps
+
+- Consider refactoring the conditional logic within `attack_other_player` to reduce nesting and improve clarity. For example, a series of `if/elif/else` statements might be more straightforward than multiple independent `if` checks.

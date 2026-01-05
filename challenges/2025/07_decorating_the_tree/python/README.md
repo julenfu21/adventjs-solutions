@@ -59,4 +59,12 @@ pytest test_solution.py::test_draw_tree[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- Correctly implements the cumulative ornament positioning logic.
+- Handles tree centering and trunk generation accurately.
+- Code is clean, readable, and follows Pythonic conventions.
+- Uses descriptive variable names.
+
+
+### 🧭 Next Steps
+
+- Consider defining `TREE_ELEMENT`, `WHITESPACE`, and `TRUNK_ELEMENT` as constants outside the function if they were to be reused, but for a single function, their current placement is acceptable.

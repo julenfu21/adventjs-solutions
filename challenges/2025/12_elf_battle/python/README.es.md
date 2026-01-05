@@ -59,4 +59,17 @@ pytest test_solution.py::test_elf_battle[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La lógica para simular la batalla por turnos es correcta y maneja bien los diferentes tipos de ataques y bloqueos.
+- El uso de funciones auxiliares `attack_other_player` y `has_player_lost` mejora la legibilidad y modularidad del código.
+- El código maneja correctamente las condiciones de victoria y derrota, incluyendo empates y la terminación inmediata de la batalla.
+- Los nombres de las variables y funciones son descriptivos.
+
+
+### ⚠️ Puntos a Mejorar
+
+- La lógica de cálculo de daño en `attack_other_player` podría ser un poco más concisa. Por ejemplo, el caso de 'A' sin bloqueo se puede manejar de forma más directa.
+
+
+### 🧭 Próximos Pasos
+
+- Considerar refactorizar la función `attack_other_player` para simplificar la lógica de cálculo de daño, especialmente para el ataque 'A'.

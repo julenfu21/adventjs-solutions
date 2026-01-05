@@ -59,4 +59,7 @@ pytest test_solution.py::test_clear_gifts[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La lógica para colocar regalos y limpiar filas es correcta y maneja los casos de borde adecuadamente.
+- El código es limpio, bien estructurado y fácil de leer.
+- El uso de una función auxiliar para encontrar la celda vacía más baja mejora la modularidad.
+- La eficiencia es razonable para el problema planteado.

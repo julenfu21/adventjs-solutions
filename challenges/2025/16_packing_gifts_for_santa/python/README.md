@@ -59,4 +59,7 @@ pytest test_solution.py::test_pack_gifts[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- The code correctly handles the edge case of an empty gift list.
+- The logic for determining sleigh usage is clear and efficient.
+- The function correctly identifies and returns null when a gift exceeds the maximum sleigh weight.
+- Variable names are descriptive and follow Python conventions.

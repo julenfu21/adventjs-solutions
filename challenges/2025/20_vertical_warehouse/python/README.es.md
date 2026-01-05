@@ -59,4 +59,7 @@ pytest test_solution.py::test_drop_gifts[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La lógica para encontrar la celda vacía más baja es correcta y eficiente.
+- El código es limpio, legible y sigue las convenciones de Python.
+- La función auxiliar `get_lowest_empty_cell_row_index` mejora la modularidad.
+- El manejo de columnas llenas es implícito y correcto.

@@ -59,4 +59,8 @@ pytest test_solution.py::test_match_gloves[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- The code correctly identifies and counts left and right gloves of the same color.
+- It efficiently uses `defaultdict` to store glove counts.
+- The logic for matching pairs and appending to the result list is sound.
+- The function returns an empty list when no pairs are found, as required.
+- The code adheres to Python best practices with clear variable names and formatting.

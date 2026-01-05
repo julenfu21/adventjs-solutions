@@ -59,4 +59,7 @@ pytest test_solution.py::test_is_trees_synchronized[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La lógica para verificar la simetría de los árboles es correcta y maneja bien los casos de nodos nulos.
+- El uso de funciones auxiliares anidadas (`get_subtree_or_none` y `are_trees_equal`) mejora la legibilidad y la modularidad.
+- El código es eficiente y utiliza una recursión adecuada para recorrer los árboles.
+- El formato del código es limpio y sigue las convenciones de Python.

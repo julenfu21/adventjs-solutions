@@ -59,4 +59,7 @@ pytest test_solution.py::test_draw_table[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La función está bien estructurada con subfunciones claras para cada parte de la tabla.
+- El código maneja correctamente la alineación y el espaciado de los campos.
+- La ordenación de los datos es correcta según el criterio especificado.
+- El uso de `string.ascii_uppercase` para las cabeceras es apropiado.

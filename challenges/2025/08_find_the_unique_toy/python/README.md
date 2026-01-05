@@ -59,4 +59,7 @@ pytest test_solution.py::test_find_unique_toy[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- The code correctly identifies the first non-repeated character while ignoring case.
+- It handles edge cases such as empty strings and strings with all repeated characters.
+- The use of `defaultdict` is efficient for counting character frequencies.
+- The code is clean, readable, and follows Pythonic conventions.

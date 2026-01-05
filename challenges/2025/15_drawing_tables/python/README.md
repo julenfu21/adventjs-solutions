@@ -59,4 +59,7 @@ pytest test_solution.py::test_draw_table[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- The code is well-structured with helper functions for clarity.
+- Handles sorting correctly for both string and numeric types.
+- The table formatting logic is robust and handles alignment precisely.
+- Uses descriptive variable names and follows Python conventions.

@@ -59,4 +59,7 @@ pytest test_solution.py::test_reveal_santa_route[test-<índice>]
 
 ### ✅ Puntos Fuertes
 
-- ...
+- La lógica para reconstruir la ruta es correcta y maneja eficientemente los casos de borde.
+- El código es limpio, legible y sigue las convenciones de estilo de Python.
+- La función auxiliar `get_next_trip_segment` está bien definida y mejora la modularidad.
+- La eficiencia algorítmica es adecuada para el problema, utilizando una búsqueda lineal que es aceptable dada la naturaleza del problema.

@@ -59,4 +59,8 @@ pytest test_solution.py::test_draw_gift[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- The code correctly handles the edge case where size is less than 2.
+- The logic for constructing the top, bottom, and middle rows is clear and efficient.
+- Variable names are descriptive and follow Python conventions.
+- The use of string multiplication and list comprehension is idiomatic and readable.
+- The final string is correctly formatted with newline characters.

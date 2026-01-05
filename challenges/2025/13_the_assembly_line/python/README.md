@@ -59,4 +59,7 @@ pytest test_solution.py::test_run_factory[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- The use of a dataclass for `Location` is excellent for representing coordinates and ensuring immutability.
+- Helper functions are well-defined and contribute to code clarity.
+- The logic for detecting loops, completion, and broken paths is sound.
+- The code correctly handles boundary conditions and state tracking.

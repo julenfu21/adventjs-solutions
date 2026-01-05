@@ -46,7 +46,6 @@ def min_steps_to_deliver(map: list[list[str]]) -> int:
         return neighbors
 
     # Code here
-    print(map)
 
     # Set-up initial state
     start_position = get_start_position(map)

@@ -59,4 +59,18 @@ pytest test_solution.py::test_min_steps_to_deliver[test-<index>]
 
 ### ✅ Strengths
 
-- ...
+- The code correctly implements a BFS to find shortest paths.
+- Helper functions are well-defined and improve readability.
+- Edge cases like unreachable houses are handled correctly.
+
+
+### ⚠️ Weak Points
+
+- The BFS implementation is not optimized for finding distances to multiple targets efficiently. It explores the entire reachable map from 'S' and then checks if houses are visited, rather than performing a BFS for each house or a multi-target BFS.
+- The `remaining_houses` logic is slightly flawed. It decrements `remaining_houses` when a house is found, but the `while queue and remaining_houses >= 0:` condition doesn't guarantee that all houses are found if the queue empties before all houses are visited. A better approach would be to track found houses and check if all are found at the end.
+
+
+### 🧭 Next Steps
+
+- Refactor the BFS to efficiently find distances to all 'G' locations. Consider running a separate BFS for each 'G' from 'S', or a single BFS that stores distances to all 'G's as they are encountered.
+- Adjust the logic for tracking found houses to ensure all 'G's are accounted for before returning the total steps or -1.
