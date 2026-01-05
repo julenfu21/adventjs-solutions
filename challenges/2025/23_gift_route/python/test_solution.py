@@ -15,42 +15,47 @@ def test_min_steps_to_deliver_returns_int():
 @pytest.mark.parametrize(
     "map,expected_steps",
     [
-        (
+        pytest.param(
             [
                 ['S', '.', 'G'],
                 ['.', '#', '.'],
                 ['G', '.', '.']
             ],
-            4
+            4,
+            id="test-2"
         ),
-        (
+        pytest.param(
             [
                 ['S', '#', 'G'],
                 ['#', '#', '.'],
                 ['G', '.', '.']
             ],
-            -1
+            -1,
+            id="test-3"
         ),
-        (
+        pytest.param(
             [
                 ['S', 'G']
             ],
-            1
+            1,
+            id="test-4"
         ),
-        (
+        pytest.param(
             [
                 ['S', 'G', 'G', 'G']
             ],
-            6
+            6,
+            id="test-5"
         ),
-        (
+        pytest.param(
             [
                 ['S', '#'],
                 ['.', '#'],
                 ['.', '.'],
                 ['G', '.']
             ],
-            3
+            3,
+            id="test-6"
         )
     ]
 )

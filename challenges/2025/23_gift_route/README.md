@@ -3,8 +3,7 @@
 </div>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Difficulty-MEDIUM-yellow" alt="Difficulty: Medium" style="margin-right:16px;">
-    <img src="https://img.shields.io/badge/Score-7%2F8-blueviolet" alt="Score: 7-8">
+    <img src="https://img.shields.io/badge/Difficulty-MEDIUM-yellow" alt="Difficulty: Medium">
 </p>
 <br>
 
@@ -16,6 +15,13 @@
         <img src="https://img.shields.io/badge/Language-es-yellow.svg" alt="Spanish">
     </a>
 </p>
+
+
+## 💻 Implementations & Scores
+
+| Language | Score | Implementation |
+|:--------:|:-----:|----------------|
+| <img src="../../../assets/python-logo.png" alt="Python" width="20" style="vertical-align: middle;"> Python | <img src="https://img.shields.io/badge/Score-7%2F8-blueviolet" alt="Score: 7-8" style="vertical-align: middle;"> | [Go to Implementation](python/README.md) |
 
 
 ## 🎯 Instructions
