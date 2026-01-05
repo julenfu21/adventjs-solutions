@@ -15,57 +15,64 @@ def test_can_escape_returns_boolean():
 @pytest.mark.parametrize(
     "maze,expected_value",
     [
-        (
+        pytest.param(
             [
                 ['S', '.', '#', '.'],
                 ['#', '.', '#', '.'],
                 ['.', '.', '.', '.'],
                 ['#', '#', '#', 'E']
             ],
-            True
+            True,
+            id="test-2"
         ),
-        (
+        pytest.param(
             [
                 ['S', '#', '#'],
                 ['.', '#', '.'],
                 ['.', '#', 'E']
             ],
-            False
+            False,
+            id="test-3"
         ),
-        (
+        pytest.param(
             [
                 ['S', 'E']
             ],
-            True
+            True,
+            id="test-4"
         ),
-        (
+        pytest.param(
             [
                 ['S', '#', 'E']
             ],
-            False
+            False,
+            id="test-5"
         ),
-        (
+        pytest.param(
             [
                 ['S', '.', '.'],
                 ['#', '#', '.'],
                 ['E', '.', '.']
             ],
-            True
+            True,
+            id="test-6"
         ),
-        (
+        pytest.param(
             [
                 ['S', '.', '.'],
                 ['.', '.', '.'],
                 ['.', '.', 'E']
             ],
-            True
+            True,
+            id="test-7"
         ),
-        (
+        pytest.param(
             [
                 ['S', '.', '.', '.', '.'],
                 ['#', '#', '#', '#', 'E']
             ],
-            True
+            True,
+            id="test-8"
         )
     ]
 )
