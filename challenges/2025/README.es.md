@@ -45,7 +45,7 @@ Esta carpeta contiene mis soluciones propuestas para los retos de [AdventJS (202
 | 22  | [🎄 El Laberinto del Trineo](22_the_sleigh_maze/README.es.md) | <img src="https://img.shields.io/badge/Dificultad-DIFÍCIL-red" alt="Dificultad: Difícil" style="vertical-align:middle;"> | <img src="https://img.shields.io/badge/Puntuación-7%2F8-blueviolet" alt="Puntuación: 7-8" style="vertical-align: middle;"> |
 | 23  | [🎁 Ruta de Regalos](23_gift_route/README.es.md) | <img src="https://img.shields.io/badge/Dificultad-MEDIO-yellow" alt="Dificultad: Medio" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Puntuación-7%2F8-blueviolet" alt="Puntuación: 7-8" style="vertical-align: middle;"> |
 | 24  | [🪞 Verifica si los Árboles son Espejos Mágicos](24_check_if_trees_are_magical_mirrors/README.es.md) | <img src="https://img.shields.io/badge/Dificultad-MEDIO-yellow" alt="Dificultad: Medio" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Puntuación-8%2F8-blueviolet" alt="Puntuación: 7-8" style="vertical-align: middle;"> |
-| 25  | [🪄 Ejecuta el Lenguaje Mágico](python/25_execute_the_magical_language/) | <img src="https://img.shields.io/badge/Dificultad-MEDIO-yellow" alt="Dificultad: Medio" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Puntuación-7%2F8-blueviolet" alt="Puntuación: 7-8" style="vertical-align: middle;"> |
+| 25  | [🪄 Ejecuta el Lenguaje Mágico](25_execute_the_magical_language/README.es.md) | <img src="https://img.shields.io/badge/Dificultad-MEDIO-yellow" alt="Dificultad: Medio" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Puntuación-7%2F8-blueviolet" alt="Puntuación: 7-8" style="vertical-align: middle;"> |
 
 
 ## 🏆 Puntuaciones Totales
