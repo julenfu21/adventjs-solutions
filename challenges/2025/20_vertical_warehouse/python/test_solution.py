@@ -16,7 +16,7 @@ def test_drop_gifts_returns_list():
 @pytest.mark.parametrize(
     "warehouse,drops,expected_warehouse",
     [
-        (
+        pytest.param(
             [
                 ['.', '.', '.'],
                 ['.', '#', '.'],
@@ -27,9 +27,10 @@ def test_drop_gifts_returns_list():
                 ['.', '.', '.'],
                 ['#', '#', '.'],
                 ['#', '#', '.']
-            ]
+            ],
+            id="test-2"
         ),
-        (
+        pytest.param(
             [
                 ['.', '.', '.'],
                 ['#', '#', '.'],
@@ -40,9 +41,10 @@ def test_drop_gifts_returns_list():
                 ['#', '.', '.'],
                 ['#', '#', '#'],
                 ['#', '#', '#']
-            ]
+            ],
+            id="test-3"
         ),
-        (
+        pytest.param(
             [
                 ['.', '.', '.'],
                 ['.', '.', '.'],
@@ -53,9 +55,10 @@ def test_drop_gifts_returns_list():
                 ['.', '.', '.'],
                 ['.', '.', '.'],
                 ['#', '#', '#']
-            ]
+            ],
+            id="test-4"
         ),
-        (
+        pytest.param(
             [
                 ['#', '.'],
                 ['#', '.']
@@ -64,18 +67,20 @@ def test_drop_gifts_returns_list():
             [
                 ['#', '.'],
                 ['#', '.']
-            ]
+            ],
+            id="test-5"
         ),
-        (
+        pytest.param(
             [
                 ['.']
             ],
             [0],
             [
                 ['#']
-            ]
+            ],
+            id="test-6"
         ),
-        (
+        pytest.param(
             [
                 ['.', '.'],
                 ['.', '.']
@@ -84,7 +89,8 @@ def test_drop_gifts_returns_list():
             [
                 ['#', '.'],
                 ['#', '.']
-            ]
+            ],
+            id="test-7"
         )
     ]
 )
