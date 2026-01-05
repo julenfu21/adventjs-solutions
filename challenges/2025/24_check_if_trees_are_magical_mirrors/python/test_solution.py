@@ -14,12 +14,13 @@ def test_is_trees_synchronized_returns_list():
 @pytest.mark.parametrize(
     "tree1,tree2,expected_output",
     [
-        (
+        pytest.param(
             {"value": "🎄"},
             {"value": "🎄"},
-            [True, "🎄"]
+            [True, "🎄"],
+            id="test-2"
         ),
-        (
+        pytest.param(
             {
                 "value": "🎄",
                 "left": {
@@ -38,9 +39,10 @@ def test_is_trees_synchronized_returns_list():
                     "value": "⭐"
                 }
             },
-            [True, "🎄"]
+            [True, "🎄"],
+            id="test-3"
         ),
-        (
+        pytest.param(
             {
                 "value": "✨",
                 "left": {
@@ -59,19 +61,22 @@ def test_is_trees_synchronized_returns_list():
                     "value": "🎁"
                 }
             },
-            [False, "✨"]
+            [False, "✨"],
+            id="test-4"
         ),
-        (
+        pytest.param(
             {"value": "🎁"},
             {"value": "🎁"},
-            [True, "🎁"]
+            [True, "🎁"],
+            id="test-5"
         ),
-        (
+        pytest.param(
             {"value": "🎄"},
             {"value": "🎁"},
-            [False, "🎄"]
+            [False, "🎄"],
+            id="test-6"
         ),
-        (
+        pytest.param(
             {
                 "value": "🎄",
                 "left": {
@@ -84,7 +89,8 @@ def test_is_trees_synchronized_returns_list():
                     "value": "⭐"
                 }
             },
-            [True, "🎄"]
+            [True, "🎄"],
+            id="test-7"
         )
     ]
 )
