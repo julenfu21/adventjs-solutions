@@ -22,7 +22,7 @@ Karpeta honek Erronka #1eko **ebazpena eta testak** ditu, <img src="../../../../
 
 ## 📊 Erronkaren Xehetasunak
 
-| Difficulty | Score |
+| Zailtasun Maila | Puntuazioa |
 |:----------:|:-----:|
 | <img src="https://img.shields.io/badge/Zailtasuna-ERRAZA-brightgreen" alt="Zailtasuna: Erraza" style="vertical-align: middle;"> | <img src="https://img.shields.io/badge/Puntuazioa-6%2F8-lightcoral" alt="Puntuazioa: 5-6" style="vertical-align: middle;"> |
 

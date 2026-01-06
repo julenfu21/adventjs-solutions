@@ -31,7 +31,7 @@
 
 Bizarzurik oparien zerrenda bat jaso du, baina batzuk akastunak dira. Opari bat akastuna da baldin eta bere izenak `#` karakterea badu.
 
-Lagundu Bizarzuri funtzio bat idatziz, sarrera parametro bezala opari zerrenda hartzen duena eta **akastunak ez diren opariak soilik** dituen zerrenda berri bat bueltatzen duena.
+Lagundu Bizarzuri funtzio bat idatziz, sarrera-parametro gisa opari zerrenda hartzen duena eta **akastunak ez diren opariak soilik** dituen zerrenda berri bat bueltatzen duena.
 
 
 ## 💡 Adibideak
