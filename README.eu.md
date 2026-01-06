@@ -21,7 +21,7 @@
 
 Gordailu honek **nire AdventJS-eko erronken ebazpenak** ditu, egun **2025**-eko edizioa soilik barne hartzen dutenak. Gainera, honakoa ahalbidetzen du:
 
-- **Erronken ikuspegi orokorra eskuratzea**, **zailtasun maila**, lortutako **puntuazioa**, **xehetasun gehigarrietarako** estekak eta **puntuazioaren guztizkoa** barne.
+- **Erronken ikuspegi orokorra eskuratzea**, **zailtasun maila**, lortutako **puntuazioa**, **xehetasun gehigarrietarako** estekak eta **puntuazio totala** barne.
 - **Erronka bakoitza banan-banan esploratzea**, **🎯 Argibideak** eta **💡 Adibideak** ataletara sartzeko aukerarekin, eta **implementazioetarako** estekekin, gordailutik atera beharrik gabe.
 - **Ebazpen bakoitza aztertzea**, **testak egikaritzea** **🧪 Testak** ataleko argibideak jarraituta eta **informazio gehigarria eskuratzea** **🧠 Kodearen Azterketa** atalaren bidez.
 - Biltegian zehar hainbat hizkuntzatan **nabigatzea**: **Euskara**, **Gaztelania** eta **Ingelesa**.
