@@ -20,7 +20,7 @@
 
 This repository contains **my solutions** to the **AdventJS** challenges, which currently cover the **2025** edition only. Additionally, it allows you to:
 
-- **Get an overview of the challenges**, including **difficulty**, **score** obtained, links to **details** and total **score**.
+- **Get an overview of the challenges**, including **difficulty**, **score** obtained, links to **details** and **total score**.
 - **Explore each challenge individually** with access to **🎯 Instructions**, **💡 Examples**, and links to **implementations**, without leaving the repository.
 - **Review each solution**, **test them** following the instructions provided in the **🧪 Tests** section and **gain additional insights** through the **🧠 Code Review** section.
 - **Navigate** the repository in all supported languages: **English**, **Spanish** and **Basque**.
