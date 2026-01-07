@@ -7,7 +7,10 @@
 
 <p align="center">
     <a href="README.md">
-        <img src="https://img.shields.io/badge/Idioma-en-red.svg" alt="Inglés">
+        <img src="https://img.shields.io/badge/Idioma-en-red.svg" alt="Inglés" style="margin-right:16px;">
+    </a>
+    <a href="README.eu.md">
+        <img src="https://img.shields.io/badge/Idioma-eu-green.svg" alt="Euskera">
     </a>
 </p>
 
