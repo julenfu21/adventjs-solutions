@@ -32,7 +32,7 @@ Karpeta honek Erronka #3ko **ebazpena eta testak** ditu, <img src="../../../../a
 Begiratu [`solution.py`](solution.py) inplementazioa ikusteko.
 
 
-## 🧪 Tests
+## 🧪 Testak
 
 Test guztiak egikaritu:
 
