@@ -31,7 +31,7 @@
 
 🎄 Gabonetako Magiaren Sakonera
 
-Ipar poloan Bizarzuri mundutik zehar haur guztiengandik jasotzen dituen eskutitz magikoak aztertzen ari da 📩✨. Eskutitz hauek antzinako gabonetako hizkuntza batean idatzita daude, non `[` eta `]` kortxeteek gurarien intentsitatea adierazten duten.
+Ipar Poloan Bizarzuri mundutik zehar haur guztiengandik jasotzen dituen eskutitz magikoak aztertzen ari da 📩✨. Eskutitz hauek antzinako gabonetako hizkuntza batean idatzita daude, non `[` eta `]` kortxeteek gurarien intentsitatea adierazten duten.
 
 Kortxeteen habiaraketa maila zenbat eta sakonagoa izan, orduan eta biziagoa izango da guraria. Zure egitekoa kortxeteen `[]` habiaraketaren **sakonera maila maximoa** aurkitzea da.
 
