@@ -12,9 +12,13 @@
 
 <p align="center">
     <a href="README.es.md">
-        <img src="https://img.shields.io/badge/Language-es-yellow.svg" alt="Spanish">
+        <img src="https://img.shields.io/badge/Language-es-yellow.svg" alt="Spanish" style="margin-right:16px;">
+    </a>
+    <a href="README.eu.md">
+        <img src="https://img.shields.io/badge/Language-eu-green.svg" alt="Basque">
     </a>
 </p>
+
 
 
 ## 💻 Implementations & Scores
