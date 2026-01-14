@@ -12,7 +12,10 @@
 
 <p align="center">
     <a href="README.es.md">
-        <img src="https://img.shields.io/badge/Language-es-yellow.svg" alt="Spanish">
+        <img src="https://img.shields.io/badge/Language-es-yellow.svg" alt="Spanish" style="margin-right:16px;">
+    </a>
+    <a href="README.eu.md">
+        <img src="https://img.shields.io/badge/Language-eu-green.svg" alt="Basque">
     </a>
 </p>
 
@@ -41,7 +44,6 @@ The warehouse is a matrix with `#` gifts and `.` empty spaces. You must create a
 - If when placing a gift, a row becomes completely filled with gifts (`#`), that row **disappears**.
 - All the rows that were above the removed row **move down one position**.
 - When a row is removed, a new empty row (`.`) appears at the top to keep the warehouse size.
-
 
 
 ## 💡 Examples
