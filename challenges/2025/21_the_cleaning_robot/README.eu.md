@@ -63,7 +63,7 @@ clearGifts(
 3. Errekada 2 beteta dago, robotak ezabatu egiten du
 4. Errenkada huts berri bat erantsi da 0 posizioan
 
-Result:
+Azken emaitza:
 [
   ['.', '.', '.'],
   ['.', '.', '.'],
@@ -95,7 +95,7 @@ Momentuz biltegiak honako itxura dauka:
 
 5. Oparia 2 zutabean sartzen da
 
-Result:
+Azken emaitza:
 [
   ['.', '.', '#'],
   ['#', '.', '#'],
