@@ -12,7 +12,10 @@
 
 <p align="center">
     <a href="README.es.md">
-        <img src="https://img.shields.io/badge/Language-es-yellow.svg" alt="Spanish">
+        <img src="https://img.shields.io/badge/Language-es-yellow.svg" alt="Spanish" style="margin-right:16px;">
+    </a>
+    <a href="README.eu.md">
+        <img src="https://img.shields.io/badge/Language-eu-green.svg" alt="Basque">
     </a>
 </p>
 
@@ -35,7 +38,7 @@ Each cell on the map can be:
 - `'.'` → Free path
 - `'#'` → Obstacle (cannot be crossed)
 
-Santa makes independent deliveries for each present. He leaves from `'S'`, delivers the present to a house `'G'`, and **immediately returns to** `'S'` to pick up the next one. However, for this challenge, **we only want to calculate the sum of the minimum one-way distances** from `'S'` to each house 'G'.
+Santa makes independent deliveries for each present. He leaves from `'S'`, delivers the present to a house `'G'`, and **immediately returns to** `'S'` to pick up the next one. However, for this challenge, **we only want to calculate the sum of the minimum one-way distances** from `'S'` to each house `'G'`.
 
 
 ## 🏁 Goal
