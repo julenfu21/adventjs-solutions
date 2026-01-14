@@ -63,7 +63,7 @@ pytest test_solution.py::test_drop_gifts[test-<indizea>]
 ### ✅ Sendotasunak
 
 - Kodeak opariak biltegiratzeko logika era egokian inplementatzen du.
-- `get_lowest_empty_cell_row_index` funtzioa laguntzailea ondo definitu eta kodearen irakurgarritasuna hobetzen du.
+- `get_lowest_empty_cell_row_index` funtzio laguntzailea ondo definitu eta kodearen irakurgarritasuna hobetzen du.
 - Aldagaien izenak deskribatzaileak dira eta kodea *Pythonikoa* da.
 - Kodeak zutabe bat beteta dagoen salbuespen-kasua ondo kudeatzen du.
-- Ebazpena eraginkorra erronkak jarritako murriztapenak kontuan hartuta.
+- Ebazpena eraginkorra da erronkak jarritako murriztapenak kontuan hartuta.
